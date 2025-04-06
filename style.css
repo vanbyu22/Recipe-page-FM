@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(30, 54%, 90%);
+  width: 100%;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 122px 0;
+}
+
+main {
+  background-color: #fff;
+  width: 740px;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+  border-radius: 25px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title-intro {
+  width: 100%;
+  padding-bottom: 38px;
+}
+
+.prep {
+  width: 100%;
+}
+
+.prep-box {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding: 30px;
+  line-height: 2.5em;
+}
+
+ul,
+ol {
+  padding-left: 25px;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+ol li {
+  margin-bottom: 10px;
+}
+
+.ingredients {
+  width: 100%;
+  padding: 30px 0;
+  line-height: 2.5em;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions {
+  width: 100%;
+  padding: 30px 0;
+  line-height: 1.5;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition {
+  width: 100%;
+  padding: 30px 0 0;
+  line-height: 1em;
+}
+
+.nutrition p {
+  margin-bottom: 20px;
+}
+
+.nutrition-item {
+  display: flex;
+  justify-content: space-between; /* Aligns the text to be indented & lined up */
+  margin-bottom: 10px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 10px;
+}
+
+.nutrition-label {
+  padding-left: 25px;
+  width: 100%;
+}
+
+.nutrition-value {
+  width: 100%;
+  font-weight: bold;
+  text-align: left;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredients li,
+.prep-box li,
+.instructions li {
+  padding-left: 25px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2.5em;
+  font-style: larger;
+  color: hsl(24, 5%, 18%);
+  padding: 35px 0;
+}
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+  padding: 0 0 20px;
+}
+
+h3 {
+  font-weight: bold;
+  font-style: normal;
+  color: hsl(332, 51%, 32%);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+}
+
+@media (min-width: 350px) and (max-width: 430px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3 {
+    padding-bottom: 25px;
+  }
+
+  main {
+    background-color: #fff;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .title-intro {
+    width: 100%;
+    padding: 0 33px;
+  }
+
+  .prep {
+    width: 100%;
+  }
+
+  .prep-box {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 30px;
+    line-height: 1.5em;
+  }
+
+  .ingredients,
+  .instructions,
+  .nutrition {
+    width: 100%;
+    padding: 30px;
+    line-height: 1.5em;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+}
+
+/*Footer and Attribution*/
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: hsl(30, 18%, 87%);
+  color: (30, 10%, 34%);
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
